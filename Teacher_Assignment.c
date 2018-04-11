@@ -9,7 +9,8 @@ struct requirement
 };
 int main()
 {
-	struct reqirement student[3];
+	int n=3;
+	struct reqirement s[n];
 	s[0].pen=1;				// first student has pen
 	s[1].paper=1;				// second student has paper
 	s[2].question_paper=1;				// third student has question paper
