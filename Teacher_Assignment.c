@@ -9,9 +9,9 @@ struct requirement
 int main()
 {
 	struct reqirement student[3];
-	s[0].pen=1;				
-	s[1].paper=1;				
-	s[2].question_paper=1;				
+	s[0].pen=1;				// first student has pen
+	s[1].paper=1;				// second student has paper
+	s[2].question_paper=1;				// third student has question paper
 	while(s[0].all_three==0||s[1].all_three==0||s[2].all_three==0)
 	{
 		char ch1,ch2;
