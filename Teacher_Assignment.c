@@ -1,10 +1,11 @@
 #include<stdio.h>
+#include<stdbool.h>
 struct requirement
 {
-	boolean pen= 0;
-	boolean paper = 0;
-	boolean question_paper=0;
-	boolean all_three=0;
+	bool pen= 0;
+	bool paper = 0;
+	bool question_paper=0;
+	bool all_three=0;
 };
 int main()
 {
