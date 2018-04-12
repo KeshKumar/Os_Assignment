@@ -2,10 +2,10 @@
 #include<stdbool.h>
 struct requirement
 {
- 	boolean pen ;
-	boolean paper ;
-	boolean question_paper ;
-	boolean all_three ;
+ 	bool pen ;
+	bool paper ;
+	bool question_paper ;
+	bool all_three ;
 };
 int main()
 {
