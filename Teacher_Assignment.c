@@ -46,6 +46,6 @@ int main()
 			printf("Student second has completed the task");
 		}
 	}
-	printf("All students completed the task");
+	printf("All students completed their respective tasks");
 	return 0;
 }
