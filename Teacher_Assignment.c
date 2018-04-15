@@ -31,24 +31,24 @@ int main()
 	while(s[0].all_three==false||s[1].all_three==false||s[2].all_three==false)
 	{
 		int ch1,ch2;
-		printf("Menu:\n1.pen\n2.paper\n3.question paper\n Enter the two things which is to be placed on the shared table ");
+		printf("\nResources:\n1.pen\n2.paper\n3.question paper\n Enter the two things which is to be placed on the shared table: ");
 		scanf("%d%d",&ch1,&ch2);
 		if(ch1==1 && ch2==2 && s[2].all_three==false)
 		{
 			s[2].all_three=true ;
-			printf("Student three has completed the task\n");
+			printf("Third Student has completed the task\n");
 		}
 		if(ch1==2 && ch2==3 && s[0].all_three==false)
 		{
 			s[0].all_three=true;
-			printf("Student one has completed the task\n");
+			printf("First Student has completed the task\n");
 		}
 		if(ch1==1 && ch2==3 && s[1].all_three==false)
 		{
 			s[1].all_three=true;
-			printf("Student second has completed the task\n");
+			printf("Second Student has completed the task\n");
 		}
 	}
-	printf("All students completed their respective tasks\n");
+	printf("All the students now have completed their respective tasks succesfully\n");
 	return 0;
 }
